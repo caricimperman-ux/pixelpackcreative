@@ -239,3 +239,36 @@ footer { background: #222; color: #fff; }
   color: #ffd700;
   margin-bottom: 24px;
 }
+
+/* TinyHero Section */
+.tinyhero-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  color: white;
+  text-align: center;
+}
+.tinyhero-section .section-label { color: #f0a500; }
+.tinyhero-section h2 { color: white; }
+.tinyhero-section .section-sub { color: rgba(255,255,255,0.8); max-width: 600px; margin: 0 auto 32px; }
+.tinyhero-cards {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.tinyhero-card {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 12px;
+  padding: 16px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}
+.tinyhero-price {
+  font-size: 1.2rem;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 24px;
+}
+.tinyhero-price strong { color: #f0a500; font-size: 1.4rem; }
